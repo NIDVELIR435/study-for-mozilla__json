@@ -1,12 +1,2 @@
-var form = document.querySelector('form');
-var fname = document.getElementById('fname');
-var lname = document.getElementById('lname');
-var submit = document.getElementById('submit');
-var para = document.querySelector('p');
-
-form.onsubmit = function (e) {
-	if (fname.value === '' || lname.value === '') {
-		e.preventDefault();
-		para.textContent = 'Оба пол';
-	}
-}
+const header = document.querySelector('header');
+const section = document.querySelector('section');
